@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(237, 212, 197);
+}
+
+/* Barra de navegacion */
+.navbar{
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+    background-color: #ecdcd4;
+}
+
+/* Color barra de navegacion */
+.navbar div{
+    background-color: #ecdcd4;
+}
+
+/* Logo barra de navegacion */
+.logo img{
+    width: 140px;
+}
+
+/* Accesos barra de navegacion */
+.navbar-nav li a{
+    color: white;
+}
+.navbar-nav li a:hover{
+    color: #e8b84a;
+}
+.nav-item .active{
+    color: #e8b84a !important;
+}
+.dropdown-menu{
+    background-color: #ecdcd4;
+    font-size: 20px;
+}
+
+
+
+/* Footer */
+.footer{
+    background-color: #ecdcd4;
+    text-align: center;
+    color: white;
+}
+/* Iconos */
+.social{
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+}
+.social a{
+    font-size: 45px;
+    color: #e8b84a;
+}
+/* Creditos */
+.creditos{
+    padding-top: 10px;
+    font-size: 22px;
+}
+
+
+/* Responsibidad */
+/* Extra Small */
+@media only screen and (max-width: 600px){
+    .producto img{
+        width: 270px;
+        border-radius: 25%;
+    }
+}
+
+/* Small */
+@media only screen and (min-width: 601px) {
+    .producto img{
+        width: 270px;
+        border-radius: 25%;
+    }
+}
+
+/* Medium */
+@media only screen and (min-width: 768px) {
+    .producto img{
+        width: 230px;
+        border-radius: 25%;
+    }
+
+}
+/* Large */
+@media only screen and (min-width: 992px) { 
+    .producto img{
+        width: 235px;
+        border-radius: 25%;
+    }
+ }
+/* X-Large */
+@media only screen and (min-width: 1200px) {
+    .producto img{
+        width: 270px;
+        border-radius: 25%;
+    }
+ }
+
+.titulo{
+    color: white;
+    text-align: center;
+    background-color: #ecdcd4;
+    margin-top: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.container{
+    background-color: #ecdcd4;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.container h2{
+    text-align: center;
+    color: white;
+    padding-top: 7px;
+}
+
+html {
+    scroll-behavior: smooth;
+}

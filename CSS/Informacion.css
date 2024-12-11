@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(237, 212, 197);
+}
+
+/* Barra de navegacion */
+.navbar{
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+    background-color: #ecdcd4;
+}
+
+/* Color barra de navegacion */
+.navbar div{
+    background-color: #ecdcd4;
+}
+
+/* Logo barra de navegacion */
+.logo img{
+    width: 140px;
+}
+
+/* Accesos barra de navegacion */
+.navbar-nav li a{
+    color: white;
+}
+.navbar-nav li a:hover{
+    color: #e8b84a;
+}
+.nav-item .active{
+    color: #e8b84a !important;
+}
+.dropdown-menu{
+    background-color: #ecdcd4;
+    font-size: 20px;
+}
+
+
+
+/* Footer */
+.footer{
+    background-color: #ecdcd4;
+    text-align: center;
+    color: white;
+}
+/* Iconos */
+.social{
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+}
+.social a{
+    font-size: 45px;
+    color: #e8b84a;
+}
+/* Creditos */
+.creditos{
+    padding-top: 10px;
+    font-size: 22px;
+}
+
+
+/* Responsibidad */
+/* Small */
+@media (min-width: 576px) {
+    .avisos img{
+        width: 500px;
+    }
+}
+/* Medium */
+@media (min-width: 768px) {
+    .avisos img{
+        width: 700px;
+    }
+
+}
+/* Large */
+@media (min-width: 992px) {  }
+/* X-Large */
+@media (min-width: 1200px) { }
+
+/* Informacion */
+.informacion{
+    margin: 10px;
+    background-color: #ecdcd4;
+    border-radius: 10px;
+}
+.info{padding: 10px;}
+.compra{padding: 10px;}
+.envios{padding: 10px;}
+
+.procesos{
+    margin: 10px;
+    background-color: #ecdcd4;
+    border-radius: 10px;
+}
+.procesos h1{
+    padding: 10px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+video {
+    max-width: 65%;
+    height: auto;
+}

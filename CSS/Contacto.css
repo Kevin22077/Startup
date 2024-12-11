@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(237, 212, 197);
+}
+
+/* Barra de navegacion */
+.navbar{
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+    background-color: #ecdcd4;
+}
+
+/* Color barra de navegacion */
+.navbar div{
+    background-color: #ecdcd4;
+}
+
+/* Logo barra de navegacion */
+.logo img{
+    width: 140px;
+}
+
+/* Accesos barra de navegacion */
+.navbar-nav li a{
+    color: white;
+}
+.navbar-nav li a:hover{
+    color: #e8b84a;
+}
+.nav-item .active{
+    color: #e8b84a !important;
+}
+.dropdown-menu{
+    background-color: #ecdcd4;
+    font-size: 20px;
+}
+
+
+
+/* Footer */
+.footer{
+    background-color: #ecdcd4;
+    text-align: center;
+    color: white;
+}
+/* Iconos */
+.social{
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+}
+.social a{
+    font-size: 45px;
+    color: #e8b84a;
+}
+/* Creditos */
+.creditos{
+    padding-top: 10px;
+    font-size: 22px;
+}
+
+
+/* Responsibidad */
+/* Extra Small */
+@media only screen and (max-width: 600px) {
+    
+}
+
+/* Small */
+@media only screen and (min-width: 601px) {
+    
+}
+/* Medium */
+@media only screen and (min-width: 768px) {
+
+}
+/* Large */
+@media only screen and (min-width: 992px) { 
+    
+ }
+/* X-Large */
+@media only screen and (min-width: 1200px) {
+    
+ }
+
+ .form-container {
+    background-color: white;
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+.form-control, .form-select {
+    border: 2px solid #e8b84a; 
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #d4a73c;
+    box-shadow: 0 0 5px rgba(232, 184, 74, 0.5);
+}
+
+.btn-primary {
+    background-color: #e8b84a;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #d4a73c;
+}
+
+h2 {
+    font-weight: bold;
+}
